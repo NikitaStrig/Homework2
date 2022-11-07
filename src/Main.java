@@ -56,10 +56,13 @@ public class Main {
                        System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceA + " кг! ");
                          System.out.println("Задание 7");
                          var weightDifferenceB = totalWeight % firstBoxerWeight;
+                         var weightDifferenceC = secondBoxerWeight % firstBoxerWeight;
                          System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceA + " кг! "
                                + "(Вычитание из большего веса меньшего)");
                          System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceB + " кг! "
                                + "(Используя функцию остаток от деления)");
+                         System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceC + " кг! "
+                               + "(Используя функцию остаток от деления v.2.)");
                             System.out.println("Задание 8");
                             var totalHours = 640;
                             var workingMode = 8;
