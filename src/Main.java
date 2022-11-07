@@ -20,11 +20,12 @@ public class Main {
             System.out.println(paper);
             System.out.println("Задание 3");
                //Задание 3
-              // dog = dog - 3.6; // для вычетания дробного числа нужно иметь тип double
+               var dog1 = 8.0;
+               dog1 = dog1 - 3.5;
                cat = cat - 1.6;
                paper = paper - 7639;
                 //Проверка.
-                 System.out.println(dog);
+                 System.out.println(dog1);
                  System.out.println(cat);
                  System.out.println(paper);
                  System.out.println("Задание 4");
@@ -47,13 +48,14 @@ public class Main {
                      System.out.println(frog);
                        //Задание 6
                        System.out.println("Задание 6");
-                       var firstBoxer = 78.2;
-                       var secondBoxer = 82.7;
-                       var totalWeight = firstBoxer + secondBoxer;
+                       var firstBoxerWeight = 78.2;
+                       var secondBoxerWeight = 82.7;
+                       var totalWeight = firstBoxerWeight + secondBoxerWeight;
+                       var weightDifferenceA = secondBoxerWeight - firstBoxerWeight;
                        System.out.println("Общий вес боксеров " + totalWeight + " кг!");
+                       System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceA + " кг! ");
                          System.out.println("Задание 7");
-                         var weightDifferenceA = secondBoxer - firstBoxer;
-                         var weightDifferenceB = totalWeight % firstBoxer;
+                         var weightDifferenceB = totalWeight % firstBoxerWeight;
                          System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceA + " кг! "
                                + "(Вычитание из большего веса меньшего)");
                          System.out.println("Разница в весе боксеров, состовляет " + weightDifferenceB + " кг! "
@@ -64,7 +66,7 @@ public class Main {
                             var totalEmployeesOld = totalHours / workingMode;
                             System.out.println("Всего работников в компании -  " + totalEmployeesOld + " человек");
                             var newEmployees = totalEmployeesOld + 94;  // + Новые сотрудники
-                            var totalEmployeesNew = totalHours / newEmployees;
+                            var totalEmployeesNew = workingMode * newEmployees;
                             System.out.println("Если в компании работает " + newEmployees + " человек, то всего "
                                     + totalEmployeesNew + " часов работы может быть поделено между сотрудниками");
 
